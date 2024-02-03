@@ -9,10 +9,10 @@ const category = new mongoose.Schema({
     slug: {
         type: String,
         required: true,
-        unique: true
+        unique:true
       },
     parentId: {
-       type: String
+        type: String
     }
 }, { timestamps: true });
 
